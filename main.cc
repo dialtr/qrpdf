@@ -9,8 +9,8 @@
 // Google C++ Style Guide recommends using unnamed namespaces for internal helpers.
 namespace {
 
-constexpr double kPaperSizePts = 144.0;  // 2 inches * 72 points/inch
-constexpr double kMarginPts = 7.2;       // 0.1 inch margin in points
+constexpr double kPaperSizePts = 288.0;  // 4 inches * 72 points/inch
+constexpr double kMarginPts = 72.0;       // 1.0 inch margin in points
 
 // Encodes the given text into a QR code and renders it as a PDF file.
 bool GenerateQrPdf(const std::string& text, const std::string& output_filename) {
