@@ -1,0 +1,12 @@
+# Bazel (start with / to avoid ignoring nested directories with the same name)
+/bazel-*
+
+# Generated output
+output.pdf
+
+# Editor/IDE temporary files
+*~
+*.swp
+.DS_Store
+.vscode/
+.idea/

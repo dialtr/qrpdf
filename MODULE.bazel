@@ -1,0 +1,4 @@
+module(
+    name = "qrcode",
+    version = "1.0",
+)
