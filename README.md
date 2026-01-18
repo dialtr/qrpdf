@@ -23,6 +23,16 @@ To build the application using Bazel, run:
 bazel build //:qrpdf
 ```
 
+## Installation
+
+To build and install the program to `/usr/local/bin`, run the provided script:
+
+```bash
+./install.sh
+```
+
+This may prompt for your password if `sudo` permissions are required to write to `/usr/local/bin`.
+
 ## Usage
 
 To generate a QR code, run the binary with a single URL argument:
